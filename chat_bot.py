@@ -12,6 +12,9 @@ import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 
+
+
+
 training = pd.read_csv('Data/Training.csv')
 testing= pd.read_csv('Data/Testing.csv')
 cols= training.columns
